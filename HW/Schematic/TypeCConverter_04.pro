@@ -1,0 +1,25 @@
+EAGLE AutoRouter Statistics:
+
+Job           : /Users/Bindebende/Documents/embedded_projects/TypeCPD_To_UART/HW/Schematic/TypeCConverter.brd
+
+Start at      : 13:56:04 (2018. 11. 18.)
+End at        : 13:56:27 (2018. 11. 18.)
+Elapsed time  : 00:00:10
+
+Signals       :    38   RoutingGrid: 9.84252 mil  Layers: 2
+Connections   :   127   predefined:  0 ( 0 Vias )
+
+Router memory :   193856
+
+Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+
+Time per pass     :  00:00:00  00:00:09  00:00:00  00:00:01  00:00:00  00:00:00
+Number of Ripups  :         0       290         0         0         0         0
+max. Level        :         0         8         0         0         0         0
+max. Total        :         0        45         0         0         0         0
+
+Routed            :        11       122       122       122       122       122
+Vias              :         0       103        75        67        63        59
+Resolution        :     8.7 %    96.1 %    96.1 %    96.1 %    96.1 %    96.1 %
+
+Final             : 
