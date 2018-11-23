@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,9 +28,9 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -1212,6 +1212,7 @@ design rules under a new name.</description>
 <via x="21.1582" y="31.5214" extent="1-16" drill="0.3"/>
 <via x="22.1488" y="31.5976" extent="1-16" drill="0.3"/>
 <via x="18.5166" y="2.6416" extent="1-16" drill="0.3"/>
+<via x="24.0284" y="14.0462" extent="1-16" drill="0.3"/>
 </signal>
 <signal name="VBUS">
 <contactref element="U$2" pad="2"/>
@@ -1768,10 +1769,8 @@ design rules under a new name.</description>
 <wire x1="19.685" y1="21.4458" x2="21.8694" y2="23.8588" width="0.254" layer="16"/>
 <via x="21.7805" y="27.4447" extent="1-16" drill="0.35"/>
 <wire x1="21.8694" y1="23.8588" x2="22.4282" y2="24.4176" width="0.254" layer="16"/>
-<wire x1="22.4282" y1="26.67" x2="22.606" y2="26.8478" width="0.254" layer="16"/>
-<wire x1="22.4282" y1="24.4176" x2="22.4282" y2="26.67" width="0.254" layer="16"/>
-<wire x1="22.606" y1="26.8478" x2="22.0091" y2="27.4447" width="0.254" layer="16"/>
-<wire x1="22.0091" y1="27.4447" x2="21.7805" y2="27.4447" width="0.254" layer="16"/>
+<wire x1="22.4282" y1="26.797" x2="21.7805" y2="27.4447" width="0.254" layer="16"/>
+<wire x1="22.4282" y1="24.4176" x2="22.4282" y2="26.797" width="0.254" layer="16"/>
 </signal>
 <signal name="SS/TR">
 <contactref element="C35" pad="2"/>

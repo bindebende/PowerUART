@@ -3630,13 +3630,11 @@ Source: www.rsonline.de .. SMBJ12/C/15/C/24/C/30/C/5.0/C/7.5/C Voltage Suppresso
 <part name="C8" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="100nF"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U2" library="CP2104" deviceset="CP2104" device="" package3d_urn="urn:adsk.eagle:package:2401500/1"/>
-<part name="C9" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="10uF"/>
 <part name="R5" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2" value="4k7"/>
 <part name="C10" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="10uF"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER-OLD" device="TRACE" value=""/>
 <part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER-OLD" device="TRACE" value=""/>
-<part name="TP17" library="testpad" deviceset="PTR1" device="B1,27" value="VPP"/>
 <part name="TP16" library="testpad" deviceset="PTR1" device="B1,27" value="CP_RESET"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="PESD1CAN" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="PESD1CAN" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
@@ -3665,8 +3663,8 @@ Source: www.rsonline.de .. SMBJ12/C/15/C/24/C/30/C/5.0/C/7.5/C Voltage Suppresso
 <part name="C35" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="0.01uF"/>
 <part name="C36" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="0.1uF"/>
 <part name="L4" library="Inductor" deviceset="INDUCTOR" device="" package3d_urn="urn:adsk.eagle:package:6883134/1" value="10uH"/>
-<part name="R17" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2"/>
-<part name="R18" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2"/>
+<part name="R17" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2" value="10k 1%"/>
+<part name="R18" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2" value="52.5k 1%"/>
 <part name="C37" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="2.7nF"/>
 <part name="C38" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="6.8pF"/>
 <part name="R19" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2" value="76.8k"/>
@@ -3722,6 +3720,8 @@ LDO 3.45V</text>
 <wire x1="7.62" y1="81.28" x2="103.124" y2="81.28" width="0.1524" layer="150"/>
 <text x="30.48" y="73.66" size="2.54" layer="150" font="vector">USB Type C connector
 ESD Protection</text>
+<text x="116.84" y="119.38" size="1.778" layer="97">R18 = R17 * ((Vout-0.8V)/0.8)
+R17 = 10k and both resistors are 1%</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="17.78" y="40.64"/>
@@ -3737,13 +3737,11 @@ ESD Protection</text>
 <instance part="C8" gate="G$1" x="147.32" y="48.26" rot="R90"/>
 <instance part="GND3" gate="1" x="157.48" y="38.1"/>
 <instance part="U2" gate="G$1" x="251.46" y="129.54"/>
-<instance part="C9" gate="G$1" x="226.06" y="109.22" rot="R90"/>
 <instance part="R5" gate="G$1" x="309.88" y="116.84"/>
 <instance part="C10" gate="G$1" x="205.74" y="139.7" rot="R90"/>
 <instance part="GND4" gate="1" x="226.06" y="99.06"/>
 <instance part="SJ2" gate="1" x="297.18" y="109.22"/>
 <instance part="SJ1" gate="1" x="297.18" y="116.84"/>
-<instance part="TP17" gate="G$1" x="226.06" y="119.38" rot="R180"/>
 <instance part="TP16" gate="G$1" x="205.74" y="154.94" rot="R180"/>
 <instance part="D1" gate="G$1" x="96.52" y="20.32" rot="R270"/>
 <instance part="D2" gate="G$1" x="50.8" y="20.32" rot="R270"/>
@@ -3924,8 +3922,6 @@ ESD Protection</text>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <wire x1="226.06" y1="104.14" x2="228.6" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="104.14" x2="228.6" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="_"/>
-<wire x1="226.06" y1="106.68" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
 <junction x="226.06" y="104.14"/>
 <junction x="218.44" y="104.14"/>
 <junction x="210.82" y="104.14"/>
@@ -4060,18 +4056,6 @@ ESD Protection</text>
 <pinref part="C41" gate="G$1" pin="__"/>
 <wire x1="27.94" y1="142.24" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
 <junction x="27.94" y="147.32"/>
-</segment>
-</net>
-<net name="VPP" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="VPP"/>
-<pinref part="C9" gate="G$1" pin="__"/>
-<wire x1="228.6" y1="114.3" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
-<label x="223.52" y="114.3" size="1.778" layer="95"/>
-<pinref part="TP17" gate="G$1" pin="TP"/>
-<wire x1="226.06" y1="114.3" x2="226.06" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="116.84" x2="226.06" y2="114.3" width="0.1524" layer="91"/>
-<junction x="226.06" y="114.3"/>
 </segment>
 </net>
 <net name="CP_RESET" class="0">

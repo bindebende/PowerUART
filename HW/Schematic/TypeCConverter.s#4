@@ -623,18 +623,18 @@
 <smd name="A10" x="1.75" y="4.57" dx="0.35" dy="0.7" layer="1" rot="R180"/>
 <smd name="A11" x="2.25" y="4.57" dx="0.35" dy="0.7" layer="1" rot="R180"/>
 <smd name="A12" x="2.75" y="4.57" dx="0.35" dy="0.7" layer="1" rot="R180"/>
-<pad name="B1" x="3.05" y="3.45" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B2" x="2.4" y="2.75" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B3" x="1.6" y="2.75" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B4" x="1.2" y="3.45" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B5" x="0.8" y="2.75" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B6" x="0.4" y="3.45" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B7" x="-0.4" y="3.45" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B8" x="-0.8" y="2.75" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B9" x="-1.2" y="3.45" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B10" x="-1.6" y="2.75" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B11" x="-2.4" y="2.75" drill="0.4" diameter="0.65" rot="R180"/>
-<pad name="B12" x="-3.05" y="3.45" drill="0.4" diameter="0.65" rot="R180"/>
+<pad name="B1" x="3.05" y="3.45" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B2" x="2.4" y="2.75" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B3" x="1.6" y="2.75" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B4" x="1.2" y="3.45" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B5" x="0.8" y="2.75" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B6" x="0.4" y="3.45" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B7" x="-0.4" y="3.45" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B8" x="-0.8" y="2.75" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B9" x="-1.2" y="3.45" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B10" x="-1.6" y="2.75" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B11" x="-2.4" y="2.75" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
+<pad name="B12" x="-3.05" y="3.45" drill="0.4" diameter="0.65" rot="R180" stop="no"/>
 <smd name="1" x="4.5" y="4.9" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-4.5" y="4.9" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
 <smd name="3" x="4.5" y="-0.55" dx="0.1" dy="0.1" layer="1" stop="no" cream="no"/>
@@ -3862,6 +3862,7 @@ ESD Protection</text>
 <wire x1="205.74" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="__"/>
 <wire x1="195.58" y1="121.92" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
+<junction x="205.74" y="104.14"/>
 </segment>
 <segment>
 <pinref part="JP3" gate="A" pin="1"/>
