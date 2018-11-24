@@ -1,4 +1,4 @@
-# TypeCPD_To_UART
+# PowerUART
 Under Development!!!
 USB to UART converter with Type C connector and 100W Power Delivery
 
