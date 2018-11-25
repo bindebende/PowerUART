@@ -8,7 +8,7 @@
 </settings>
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -31,7 +31,7 @@
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -170,7 +170,7 @@
 <wire x1="29" y1="0" x2="28.8476" y2="35.3736" width="0" layer="20"/>
 <wire x1="28.8476" y1="35.3736" x2="-0.0508" y2="35.3736" width="0" layer="20"/>
 <wire x1="-0.0508" y1="35.3736" x2="0" y2="0" width="0" layer="20"/>
-<text x="-15.6464" y="28.5496" size="1.27" layer="38" font="vector" rot="MR270">Engineerd by
+<text x="25.1968" y="27.3558" size="1.27" layer="38" font="vector" rot="MR270">Engineerd by
 @bindebende
 REV A
 2018.11.24.
@@ -205,6 +205,12 @@ bindebende/PowerUART</text>
 <text x="15.2146" y="31.5214" size="1.016" layer="26" font="vector" rot="MR270">GND</text>
 <text x="17.6784" y="31.5214" size="1.016" layer="26" font="vector" rot="MR270">3v45</text>
 <text x="20.2438" y="31.5214" size="1.016" layer="26" font="vector" rot="MR270">5V</text>
+<wire x1="6.985" y1="23.7744" x2="7.4168" y2="23.4188" width="0.254" layer="26"/>
+<wire x1="7.4168" y1="23.4188" x2="7.4168" y2="19.4056" width="0.254" layer="26"/>
+<wire x1="7.4168" y1="19.4056" x2="7.0612" y2="19.05" width="0.254" layer="26"/>
+<wire x1="7.0612" y1="19.05" x2="3.4798" y2="19.05" width="0.254" layer="26"/>
+<wire x1="6.985" y1="23.7744" x2="4.572" y2="23.7744" width="0.254" layer="26"/>
+<text x="8.9154" y="18.8976" size="1.016" layer="26" font="vector" rot="MR90">20V 5A max</text>
 </plain>
 <libraries>
 <library name="capacitor">
@@ -972,11 +978,11 @@ design rules under a new name.</description>
 <element name="VSNS" library="testpad" package="B1,27" value="CP_RESET" x="26.4668" y="29.3116" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="" x="26.4668" y="29.3116" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="TXLEDWP" library="testpad" package="B1,27" value="CP_RESET" x="4.572" y="16.9418" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="4.572" y="16.9418" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="TXLEDWP" library="testpad" package="B1,27" value="CP_RESET" x="7.8232" y="13.1064" rot="MR180">
+<attribute name="TP_SIGNAL_NAME" value="" x="7.8232" y="13.1064" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="RXLEDWP" library="testpad" package="B1,27" value="CP_RESET" x="7.3152" y="16.51" rot="MR0">
-<attribute name="TP_SIGNAL_NAME" value="" x="7.3152" y="16.51" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="RXLEDWP" library="testpad" package="B1,27" value="CP_RESET" x="6.9342" y="16.1798" rot="MR180">
+<attribute name="TP_SIGNAL_NAME" value="" x="6.9342" y="16.1798" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="CC1" library="testpad" package="B1,27" value="CP_RESET" x="18.161" y="20.2184" rot="MR90">
 <attribute name="TP_SIGNAL_NAME" value="" x="18.161" y="20.2184" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -1495,12 +1501,14 @@ design rules under a new name.</description>
 <wire x1="4.826" y1="16.8234" x2="4.8006" y2="17.5768" width="0.254" layer="1"/>
 <wire x1="4.8006" y1="17.5768" x2="5.2832" y2="17.9578" width="0.254" layer="1"/>
 <via x="5.2832" y="17.9578" extent="1-16" drill="0.35"/>
-<wire x1="4.57493125" y1="16.9989625" x2="4.572" y2="16.9418" width="0.254" layer="16"/>
+<wire x1="7.71901875" y1="13.231246875" x2="7.8232" y2="13.1064" width="0.254" layer="16"/>
 <wire x1="6.5532" y1="20.0152" x2="7.0462" y2="20.0152" width="0.254" layer="1"/>
 <wire x1="5.2832" y1="17.9578" x2="5.2832" y2="18.7452" width="0.254" layer="1"/>
 <wire x1="5.2832" y1="18.7452" x2="6.5532" y2="20.0152" width="0.254" layer="1"/>
-<wire x1="5.2832" y1="17.9578" x2="4.57493125" y2="17.24953125" width="0.254" layer="16"/>
-<wire x1="4.57493125" y1="17.24953125" x2="4.57493125" y2="16.9989625" width="0.254" layer="16"/>
+<wire x1="5.2832" y1="17.9578" x2="5.2832" y2="13.9192" width="0.254" layer="16"/>
+<wire x1="5.2832" y1="13.9192" x2="6.0706" y2="13.1318" width="0.254" layer="16"/>
+<wire x1="6.0706" y1="13.1318" x2="7.619571875" y2="13.1318" width="0.254" layer="16"/>
+<wire x1="7.619571875" y1="13.1318" x2="7.71901875" y2="13.231246875" width="0.254" layer="16"/>
 </signal>
 <signal name="RXLEDWP">
 <contactref element="R6" pad="2"/>
@@ -1511,8 +1519,8 @@ design rules under a new name.</description>
 <wire x1="6.5786" y1="18.43" x2="7.0716" y2="18.923" width="0.254" layer="1"/>
 <wire x1="6.5786" y1="17.0012" x2="7.2558" y2="17.6784" width="0.254" layer="1"/>
 <wire x1="7.2558" y1="17.6784" x2="7.7978" y2="17.6784" width="0.254" layer="1"/>
-<wire x1="7.3152" y1="16.51" x2="7.7978" y2="16.9926" width="0.254" layer="16"/>
-<wire x1="7.7978" y1="16.9926" x2="7.7978" y2="17.6784" width="0.254" layer="16"/>
+<wire x1="7.7978" y1="17.6784" x2="7.7978" y2="17.0434" width="0.254" layer="16"/>
+<wire x1="7.7978" y1="17.0434" x2="6.9342" y2="16.1798" width="0.254" layer="16"/>
 </signal>
 <signal name="TX_LED">
 <contactref element="U2" pad="14"/>

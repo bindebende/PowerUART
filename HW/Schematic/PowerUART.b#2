@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -166,10 +166,11 @@
 <board>
 <fusionsync huburn="a.cGVyc29uYWw6dWUyOTdhZGZi" projecturn="a.cGVyc29uYWw6dWUyOTdhZGZiIzIwMTYwMTA4MjIzOTY3MjY" f3durn="urn:adsk.wipprod:dm.lineage:jQXCEEFlSgyEhEQMhi0FtQ" pcbguid="53d00ac5-8cbc-41ab-bffd-7753b437712b" lastpulledtime="" lastsyncedchangeguid="e1987d31-fde6-4ada-60cd-040e15f8273c"/>
 <plain>
-<wire x1="0" y1="0" x2="29" y2="0" width="0" layer="20"/>
-<wire x1="29" y1="0" x2="28.8476" y2="35.3736" width="0" layer="20"/>
-<wire x1="28.8476" y1="35.3736" x2="-0.0508" y2="35.3736" width="0" layer="20"/>
-<wire x1="-0.0508" y1="35.3736" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="1.1938" y2="0" width="0" layer="20"/>
+<wire x1="1.1938" y1="0" x2="29" y2="0" width="0" layer="20"/>
+<wire x1="29" y1="0" x2="29" y2="35.5" width="0" layer="20"/>
+<wire x1="29" y1="35.5" x2="0" y2="35.5" width="0" layer="20"/>
+<wire x1="0" y1="35.5" x2="0" y2="34.1376" width="0" layer="20"/>
 <text x="25.1968" y="27.3558" size="1.27" layer="38" font="vector" rot="MR270">Engineerd by
 @bindebende
 REV A
@@ -197,6 +198,8 @@ bindebende/PowerUART</text>
 <text x="3.2004" y="28.194" size="1.016" layer="26" font="vector" rot="MR180">SCL</text>
 <text x="3.2258" y="29.7434" size="1.016" layer="26" font="vector" rot="MR180">/INT</text>
 <text x="3.113153125" y="32.11484375" size="1.016" layer="26" font="vector" rot="MR225">SUS</text>
+<wire x1="0" y1="34.1376" x2="0" y2="1.1938" width="0" layer="20"/>
+<wire x1="0" y1="1.1938" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="5.7912" y1="31.5214" x2="5.8166" y2="31.496" width="0.254" layer="26"/>
 <text x="3.2004" y="34.9504" size="1.016" layer="26" font="vector" rot="MR180">/SUS</text>
 <text x="7.493" y="31.5214" size="1.016" layer="26" font="vector" rot="MR270">GPIO2</text>
@@ -211,6 +214,7 @@ bindebende/PowerUART</text>
 <wire x1="7.0612" y1="19.05" x2="3.4798" y2="19.05" width="0.254" layer="26"/>
 <wire x1="6.985" y1="23.7744" x2="4.572" y2="23.7744" width="0.254" layer="26"/>
 <text x="8.9154" y="18.8976" size="1.016" layer="26" font="vector" rot="MR90">20V 5A max</text>
+<wire x1="1.362696875" y1="35.500296875" x2="1.365834375" y2="35.500296875" width="0.000003125" layer="20"/>
 </plain>
 <libraries>
 <library name="capacitor">

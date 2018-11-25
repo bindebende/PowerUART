@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.000123031496" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1535,15 +1535,14 @@ design rules under a new name.</description>
 <wire x1="19.750734375" y1="18.288" x2="11.0744" y2="18.288" width="2.032" layer="16"/>
 <wire x1="21.124625" y1="19.661890625" x2="19.750734375" y2="18.288" width="2.032" layer="16"/>
 <wire x1="22.176490625" y1="19.661890625" x2="21.124625" y2="19.661890625" width="2.032" layer="16"/>
-<wire x1="2.0066" y1="22.6314" x2="2.0066" y2="20.0914" width="2.032" layer="16"/>
+<wire x1="2.0066" y1="22.6314" x2="2.0066" y2="20.0914" width="1.9812" layer="16"/>
 <via x="5.6896" y="26.9748" extent="1-16" drill="0.35"/>
 <wire x1="5.6896" y1="26.9748" x2="2.0066" y2="23.3934" width="0.254" layer="16"/>
 <wire x1="2.0066" y1="23.3934" x2="2.0066" y2="22.6314" width="0.254" layer="16"/>
-<wire x1="2.0066" y1="20.0914" x2="2.2098" y2="19.8882" width="2.032" layer="16"/>
 <wire x1="9.8552" y1="19.5072" x2="11.0744" y2="18.288" width="2.032" layer="16"/>
 <wire x1="2.89036875" y1="19.685" x2="3.06816875" y2="19.5072" width="2.032" layer="16"/>
 <wire x1="2.413" y1="19.685" x2="2.89036875" y2="19.685" width="2.032" layer="16"/>
-<wire x1="2.0066" y1="20.0914" x2="2.413" y2="19.685" width="2.032" layer="16"/>
+<wire x1="2.0066" y1="20.0914" x2="2.413" y2="19.685" width="1.9812" layer="16"/>
 <wire x1="3.06816875" y1="19.5072" x2="9.8552" y2="19.5072" width="2.032" layer="16"/>
 <wire x1="6.0198" y1="26.1412" x2="6.0198" y2="26.7716" width="0.254" layer="1"/>
 <wire x1="6.0198" y1="26.7716" x2="5.6896" y2="26.9748" width="0.254" layer="1"/>
@@ -1585,6 +1584,8 @@ design rules under a new name.</description>
 <via x="24.892" y="15.9512" extent="1-16" drill="0.35"/>
 <wire x1="24.6888" y1="17.2974" x2="24.6888" y2="16.1544" width="1.524" layer="16"/>
 <wire x1="24.6888" y1="16.1544" x2="24.892" y2="15.9512" width="1.524" layer="16"/>
+<via x="24.2824" y="16.5608" extent="1-16" drill="0.35"/>
+<wire x1="24.6888" y1="16.1544" x2="24.2824" y2="16.5608" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CP_RESET">
 <contactref element="U2" pad="9"/>
