@@ -1,1 +1,31 @@
-Group;Testpoint;CH;CH type;FactorVreg;SS/TR;PB1;ADC;	Vreg;CLK;PB2;ADC;	Vreg;PGOOD;PD2;Digital Input;X1.515151Vreg;COMP;PB4;ADC;Vreg;VSNS;PA0;ADC;X1Vreg;CC1;PD0;Digital Input;X2Vreg;CC2;PD1;Digital Input;X2Vreg;5VLEDWP;PA1;ADC;X2Vreg;5V;PA2;ADC;X2PD interface;/INT;PB7;Digital Input;X1PD interface;SDA;PB9;i2c;X1PD interface;SCL;PB6;i2c;X1PD interface;VBUS;PA3;ADC;X10Converter;3V45LEDWP;PA4;ADC;X2Converter;TXLEDWP;PA5;ADC;X2Converter;RXLEDWP;PA6;ADC;X2Converter;3V45;PA7;ADC;X2Converter;CP_RESET;PB0;ADC;X2Converter;GPIO3	PD3;Digital Input;Converter;GPIO2	PD4;Digital Input;	Converter;/SUSPEND;PD5;Digital Output;	Converter;SUSPEND;PD6;Digital Output;	Converter;CTS;PD7;;		Converter;RTS;PE0;;		Converter;RXD;PE1;;		Converter;TXD;PE2;;		Converter;DSR;PE3;;		Converter;DTR;PE4;;	Converter;DCD;PE5;;		Converter;RI;PE6;;		
+Group,Testpoint,CH,CH Type,Factor
+Vreg,SS/TR,PB1,ADC,	
+Vreg,CLK,PB2,ADC,	
+Vreg,PGOOD,PD2,Digital Input,X1.515151
+Vreg,COMP,PB4,ADC,
+Vreg,VSNS,PA0,ADC,X1
+Vreg,CC1,PD0,Digital Input,X2
+Vreg,CC2,PD1,Digital Input,X2
+Vreg,5VLEDWP,PA1,ADC,X2
+Vreg,5V,PA2,ADC,X2
+PD interface,/INT,PB7,Digital Input,X1
+PD interface,SDA,PB9,i2c,X1
+PD interface,SCL,PB6,i2c,X1
+PD interface,VBUS,PA3,ADC,X10
+Converter,3V45LEDWP,PA4,ADC,X2
+Converter,TXLEDWP,PA5,ADC,X2
+Converter,RXLEDWP,PA6,ADC,X2
+Converter,3V45,PA7,ADC,X2
+Converter,CP_RESET,PB0,ADC,X2
+Converter,GPIO3	PD3,Digital Input,
+Converter,GPIO2	PD4,Digital Input,	
+Converter,/SUSPEND,PD5,Digital Output,	
+Converter,SUSPEND,PD6,Digital Output,	
+Converter,CTS,PD7,,		
+Converter,RTS,PE0,,		
+Converter,RXD,PE1,,		
+Converter,TXD,PE2,,		
+Converter,DSR,PE3,,		
+Converter,DTR,PE4,,	
+Converter,DCD,PE5,,		
+Converter,RI,PE6,,		
