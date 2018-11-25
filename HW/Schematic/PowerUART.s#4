@@ -3679,8 +3679,8 @@ Source: www.rsonline.de .. SMBJ12/C/15/C/24/C/30/C/5.0/C/7.5/C Voltage Suppresso
 <part name="VSNS" library="testpad" deviceset="PTR1" device="B1,27" value="CP_RESET"/>
 <part name="TXLEDWP" library="testpad" deviceset="PTR1" device="B1,27" value="CP_RESET"/>
 <part name="RXLEDWP" library="testpad" deviceset="PTR1" device="B1,27" value="CP_RESET"/>
-<part name="TP7" library="testpad" deviceset="PTR1" device="B1,27" value="CP_RESET"/>
-<part name="TP8" library="testpad" deviceset="PTR1" device="B1,27" value="CP_RESET"/>
+<part name="CC1" library="testpad" deviceset="PTR1" device="B1,27" value="CP_RESET"/>
+<part name="CC2" library="testpad" deviceset="PTR1" device="B1,27" value="CP_RESET"/>
 <part name="COMP" library="testpad" deviceset="PTR1" device="B1,27" value="CP_RESET"/>
 <part name="R7" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2" value="4k7"/>
 <part name="D5" library="LED" deviceset="LED" device="" package3d_urn="urn:adsk.eagle:package:15818/2"/>
@@ -3786,8 +3786,8 @@ R17 = 10k and both resistors are 1%</text>
 <instance part="VSNS" gate="G$1" x="127" y="147.32" rot="R180"/>
 <instance part="TXLEDWP" gate="G$1" x="304.8" y="157.48" rot="R180"/>
 <instance part="RXLEDWP" gate="G$1" x="317.5" y="157.48" rot="R180"/>
-<instance part="TP7" gate="G$1" x="83.82" y="38.1" rot="R180"/>
-<instance part="TP8" gate="G$1" x="76.2" y="38.1" rot="R180"/>
+<instance part="CC1" gate="G$1" x="83.82" y="38.1" rot="R180"/>
+<instance part="CC2" gate="G$1" x="76.2" y="38.1" rot="R180"/>
 <instance part="COMP" gate="G$1" x="93.98" y="137.16"/>
 <instance part="R7" gate="G$1" x="149.86" y="149.86" rot="R270"/>
 <instance part="D5" gate="G$1" x="149.86" y="137.16" rot="R270"/>
@@ -3856,7 +3856,7 @@ R17 = 10k and both resistors are 1%</text>
 <pinref part="D1" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="27.94" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
 <junction x="99.06" y="33.02"/>
-<pinref part="TP7" gate="G$1" pin="TP"/>
+<pinref part="CC1" gate="G$1" pin="TP"/>
 <wire x1="83.82" y1="33.02" x2="83.82" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3874,7 +3874,7 @@ R17 = 10k and both resistors are 1%</text>
 <pinref part="D1" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="27.94" x2="93.98" y2="30.48" width="0.1524" layer="91"/>
 <junction x="93.98" y="30.48"/>
-<pinref part="TP8" gate="G$1" pin="TP"/>
+<pinref part="CC2" gate="G$1" pin="TP"/>
 <wire x1="76.2" y1="30.48" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>

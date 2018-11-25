@@ -3635,7 +3635,6 @@ Source: www.rsonline.de .. SMBJ12/C/15/C/24/C/30/C/5.0/C/7.5/C Voltage Suppresso
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SJ2" library="SparkFun-Retired" deviceset="SOLDERJUMPER-OLD" device="TRACE" value=""/>
 <part name="SJ1" library="SparkFun-Retired" deviceset="SOLDERJUMPER-OLD" device="TRACE" value=""/>
-<part name="TP16" library="testpad" deviceset="PTR1" device="B1,27" value="CP_RESET"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="PESD1CAN" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="PESD1CAN" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="PESD1CAN" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
@@ -3742,7 +3741,6 @@ R17 = 10k and both resistors are 1%</text>
 <instance part="GND4" gate="1" x="226.06" y="99.06"/>
 <instance part="SJ2" gate="1" x="297.18" y="109.22"/>
 <instance part="SJ1" gate="1" x="297.18" y="116.84"/>
-<instance part="TP16" gate="G$1" x="205.74" y="154.94" rot="R180"/>
 <instance part="D1" gate="G$1" x="96.52" y="20.32" rot="R270"/>
 <instance part="D2" gate="G$1" x="50.8" y="20.32" rot="R270"/>
 <instance part="D3" gate="G$1" x="66.04" y="20.32" rot="R270"/>
@@ -4135,8 +4133,6 @@ R17 = 10k and both resistors are 1%</text>
 <pinref part="C10" gate="G$1" pin="__"/>
 <wire x1="205.74" y1="149.86" x2="205.74" y2="142.24" width="0.1524" layer="91"/>
 <label x="210.82" y="149.86" size="1.778" layer="95"/>
-<pinref part="TP16" gate="G$1" pin="TP"/>
-<wire x1="205.74" y1="152.4" x2="205.74" y2="149.86" width="0.1524" layer="91"/>
 <junction x="205.74" y="149.86"/>
 <pinref part="R8" gate="G$1" pin="_"/>
 <wire x1="195.58" y1="142.24" x2="195.58" y2="149.86" width="0.1524" layer="91"/>

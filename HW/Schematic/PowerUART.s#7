@@ -3665,8 +3665,8 @@ Source: www.rsonline.de .. SMBJ12/C/15/C/24/C/30/C/5.0/C/7.5/C Voltage Suppresso
 <part name="C35" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="0.01uF"/>
 <part name="C36" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="0.1uF"/>
 <part name="L4" library="Inductor" deviceset="INDUCTOR" device="" package3d_urn="urn:adsk.eagle:package:6883134/1" value="10uH"/>
-<part name="R17" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2"/>
-<part name="R18" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2"/>
+<part name="R17" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2" value="10k 1%"/>
+<part name="R18" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2" value="52.5k 1%"/>
 <part name="C37" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="2.7nF"/>
 <part name="C38" library="capacitor" deviceset="C" device="" package3d_urn="urn:adsk.eagle:package:23679/2" value="6.8pF"/>
 <part name="R19" library="resistor" deviceset="RESISTOR" device="" package3d_urn="urn:adsk.eagle:package:970935/2" value="76.8k"/>
@@ -3722,6 +3722,8 @@ LDO 3.45V</text>
 <wire x1="7.62" y1="81.28" x2="103.124" y2="81.28" width="0.1524" layer="150"/>
 <text x="30.48" y="73.66" size="2.54" layer="150" font="vector">USB Type C connector
 ESD Protection</text>
+<text x="116.84" y="119.38" size="1.778" layer="97">R18 = R17 * ((Vout-0.8V)/0.8)
+R17 = 10k and both resistors are 1%</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="17.78" y="40.64"/>
