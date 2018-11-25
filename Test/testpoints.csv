@@ -17,8 +17,8 @@ Converter,TXLEDWP,PA5,ADC,X2
 Converter,RXLEDWP,PA6,ADC,X2
 Converter,3V45,PA7,ADC,X2
 Converter,CP_RESET,PB0,ADC,X2
-Converter,GPIO3	PD3,Digital Input,
-Converter,GPIO2	PD4,Digital Input,	
+Converter,GPIO3,PD3,Digital Input,
+Converter,GPIO2,PD4,Digital Input,	
 Converter,/SUSPEND,PD5,Digital Output,	
 Converter,SUSPEND,PD6,Digital Output,	
 Converter,CTS,PD7,,		
